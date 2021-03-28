@@ -42,7 +42,7 @@ __meta__ = {
 }
 arrange/force_squares = true
 arrange/force_expand = true
-arrange/start_angle = 360.0
+arrange/start_angle = 0.0
 arrange/start_empty = false
 arrange/allow_node2d = false
 animate/percent_visible = 1.0
@@ -55,7 +55,7 @@ margin_bottom = 20.0
 text = "1"
 
 [node name="Button1" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 7.18265
+margin_left = 7.18264
 margin_top = 12.3956
 margin_right = 27.1826
 margin_bottom = 32.3956
@@ -76,9 +76,9 @@ margin_bottom = 82.5845
 text = "4"
 
 [node name="Button4" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 47.2069
+margin_left = 47.207
 margin_top = 62.5845
-margin_right = 67.2069
+margin_right = 67.207
 margin_bottom = 82.5845
 text = "5"
 
