@@ -80,8 +80,13 @@ margin_left = 32.9543
 margin_top = 29.7052
 margin_right = 91.9543
 margin_bottom = 88.7052
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 8 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Caution" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -89,8 +94,13 @@ margin_left = 0.027771
 margin_top = 109.343
 margin_right = 59.0278
 margin_bottom = 168.343
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 5 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="WorldMap" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -98,8 +108,13 @@ margin_left = 36.4032
 margin_top = 187.382
 margin_right = 93.4032
 margin_bottom = 244.382
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 2 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Compass" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -107,9 +122,14 @@ margin_left = 115.475
 margin_top = 214.009
 margin_right = 173.475
 margin_bottom = 272.009
+focus_mode = 0
+enabled_focus_mode = 0
 text = "6"
 icon = ExtResource( 9 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Woman" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -117,8 +137,13 @@ margin_left = 190.52
 margin_top = 173.525
 margin_right = 249.52
 margin_bottom = 232.525
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 10 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="OpenBook" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -126,8 +151,13 @@ margin_left = 212.5
 margin_top = 90.1988
 margin_right = 271.5
 margin_bottom = 149.199
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 11 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Flag" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -135,8 +165,13 @@ margin_left = 178.122
 margin_top = 28.0827
 margin_right = 226.122
 margin_bottom = 76.0827
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 7 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
 
 [node name="Star" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
@@ -144,5 +179,10 @@ margin_left = 111.119
 margin_top = 5.50775
 margin_right = 159.119
 margin_bottom = 53.5078
+focus_mode = 0
+enabled_focus_mode = 0
 icon = ExtResource( 4 )
 flat = true
+__meta__ = {
+"_edit_group_": true
+}
