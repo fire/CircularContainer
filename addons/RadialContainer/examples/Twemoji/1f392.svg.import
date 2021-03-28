@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/1f31f.svg-8ce1ab7d60f6611e8b713eb843f23a70.stex"
+path="res://.import/1f392.svg-54f3a42871bf75d003dbd9cbf23eb5ae.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/RadialContainer/examples/Twemoji/1f31f.svg"
-dest_files=[ "res://.import/1f31f.svg-8ce1ab7d60f6611e8b713eb843f23a70.stex" ]
+source_file="res://addons/RadialContainer/examples/Twemoji/1f392.svg"
+dest_files=[ "res://.import/1f392.svg-54f3a42871bf75d003dbd9cbf23eb5ae.stex" ]
 
 [params]
 
