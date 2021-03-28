@@ -14,7 +14,7 @@ _global_script_class_icons={
 
 [application]
 
-run/main_scene="res://addons/RadialContainer/examples/basic.tscn"
+run/main_scene="res://addons/RadialContainer/examples/Twemoji/basic.tscn"
 
 [editor_plugins]
 
