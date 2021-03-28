@@ -94,11 +94,11 @@ focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
 group = ExtResource( 22 )
-texture_normal = ExtResource( 14 )
-texture_pressed = ExtResource( 5 )
-texture_hover = ExtResource( 5 )
-texture_disabled = ExtResource( 5 )
-texture_focused = ExtResource( 5 )
+texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 14 )
+texture_hover = ExtResource( 14 )
+texture_disabled = ExtResource( 14 )
+texture_focused = ExtResource( 14 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -206,7 +206,6 @@ margin_right = 227.155
 margin_bottom = 68.0608
 focus_mode = 1
 toggle_mode = true
-pressed = true
 enabled_focus_mode = 1
 group = ExtResource( 22 )
 texture_normal = ExtResource( 20 )
