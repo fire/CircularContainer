@@ -78,7 +78,7 @@ __meta__ = {
 }
 arrange/force_squares = true
 arrange/force_expand = true
-arrange/start_angle = 20.0
+arrange/start_angle = 18.0
 arrange/start_empty = true
 arrange/allow_node2d = true
 animate/percent_visible = 1.0
@@ -86,10 +86,10 @@ animate/all_at_once = false
 
 [node name="SchoolSatchet" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 34.2955
-margin_top = 31.8624
-margin_right = 81.2955
-margin_bottom = 78.8624
+margin_left = 37.1718
+margin_top = 29.1683
+margin_right = 84.1718
+margin_bottom = 76.1683
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -106,10 +106,10 @@ __meta__ = {
 
 [node name="Caution" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 0.0974579
-margin_top = 117.597
-margin_right = 47.0975
-margin_bottom = 164.597
+margin_left = 0.00248718
+margin_top = 113.657
+margin_right = 47.0025
+margin_bottom = 160.657
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -126,10 +126,10 @@ __meta__ = {
 
 [node name="WorldMap" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 41.1585
-margin_top = 200.253
-margin_right = 86.1585
-margin_bottom = 245.253
+margin_left = 38.1894
+margin_top = 197.662
+margin_right = 83.1894
+margin_bottom = 242.662
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -146,10 +146,10 @@ __meta__ = {
 
 [node name="Compass" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 124.908
-margin_top = 231.127
-margin_right = 160.908
-margin_bottom = 267.127
+margin_left = 120.97
+margin_top = 231.285
+margin_right = 156.97
+margin_bottom = 267.285
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -166,10 +166,10 @@ __meta__ = {
 
 [node name="Woman" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 196.106
-margin_top = 189.235
-margin_right = 243.106
-margin_bottom = 236.235
+margin_left = 193.391
+margin_top = 192.092
+margin_right = 240.391
+margin_bottom = 239.092
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -186,10 +186,10 @@ __meta__ = {
 
 [node name="OpenBook" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 225.252
-margin_top = 101.654
-margin_right = 272.252
-margin_bottom = 148.654
+margin_left = 225.576
+margin_top = 105.582
+margin_right = 272.576
+margin_bottom = 152.582
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -206,10 +206,10 @@ __meta__ = {
 
 [node name="Flag" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 191.155
-margin_top = 32.0608
-margin_right = 227.155
-margin_bottom = 68.0608
+margin_left = 194.124
+margin_top = 34.6523
+margin_right = 230.124
+margin_bottom = 70.6523
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
@@ -226,10 +226,10 @@ __meta__ = {
 
 [node name="Star" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 118.482
-margin_top = 5.50003
-margin_right = 154.482
-margin_bottom = 41.5
+margin_left = 122.423
+margin_top = 5.57144
+margin_right = 158.423
+margin_bottom = 41.5714
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
