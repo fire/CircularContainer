@@ -1,0 +1,196 @@
+[gd_scene load_steps=22 format=2]
+
+[ext_resource path="res://addons/RadialContainer/CircularContainer.gd" type="Script" id=1]
+[ext_resource path="res://addons/RadialContainer/icon.png" type="Texture" id=2]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f31f.svg" type="Texture" id=3]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f4d6.svg" type="Texture" id=4]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f392.svg" type="Texture" id=5]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f469.svg" type="Texture" id=6]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f5fa.svg" type="Texture" id=7]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/26a0.svg" type="Texture" id=8]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f9ed.svg" type="Texture" id=9]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f3f3.svg" type="Texture" id=10]
+[ext_resource path="res://addons/RadialContainer/examples/mat_saturation.tres" type="Material" id=11]
+[ext_resource path="res://addons/mountainside_trail/21181342752_02a4f60565_k.jpg" type="Texture" id=12]
+[ext_resource path="res://addons/RadialContainer/examples/donut.svg" type="Texture" id=13]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f392.svg" type="Texture" id=14]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/26a0.svg" type="Texture" id=15]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f5fa.svg" type="Texture" id=16]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f9ed.svg" type="Texture" id=17]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f469.svg" type="Texture" id=18]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f4d6.svg" type="Texture" id=19]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f3f3.svg" type="Texture" id=20]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f31f.svg" type="Texture" id=21]
+
+[node name="Root" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="21181342752_02a4f60565_k" type="TextureRect" parent="."]
+margin_left = -0.109
+margin_top = 0.94281
+margin_right = 1023.89
+margin_bottom = 683.943
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 12 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="donut" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -140.873
+margin_top = -140.511
+margin_right = 840.127
+margin_bottom = 840.489
+rect_scale = Vector2( 0.29, 0.29 )
+texture = ExtResource( 13 )
+expand = true
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="CircularContainer" type="Container" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -136.407
+margin_top = -136.407
+margin_right = 136.407
+margin_bottom = 136.407
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
+"_edit_use_anchors_": false,
+"_editor_icon": ExtResource( 2 )
+}
+arrange/force_squares = true
+arrange/force_expand = true
+arrange/start_angle = 20.0
+arrange/start_empty = true
+arrange/allow_node2d = true
+animate/percent_visible = 1.0
+animate/all_at_once = false
+
+[node name="SchoolSatchet" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 34.2955
+margin_top = 31.8624
+margin_right = 81.2955
+margin_bottom = 78.8624
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 5 )
+texture_hover = ExtResource( 14 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Caution" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 0.0974579
+margin_top = 117.597
+margin_right = 47.0975
+margin_bottom = 164.597
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 8 )
+texture_hover = ExtResource( 15 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="WorldMap" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 41.1585
+margin_top = 200.253
+margin_right = 86.1585
+margin_bottom = 245.253
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 7 )
+texture_hover = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Compass" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 124.908
+margin_top = 231.127
+margin_right = 160.908
+margin_bottom = 267.127
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 9 )
+texture_hover = ExtResource( 17 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Woman" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 196.106
+margin_top = 189.235
+margin_right = 243.106
+margin_bottom = 236.235
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 6 )
+texture_hover = ExtResource( 18 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="OpenBook" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 225.252
+margin_top = 101.654
+margin_right = 272.252
+margin_bottom = 148.654
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 4 )
+texture_hover = ExtResource( 19 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Flag" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 191.155
+margin_top = 32.0608
+margin_right = 227.155
+margin_bottom = 68.0608
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 10 )
+texture_hover = ExtResource( 20 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Star" type="TextureButton" parent="CircularContainer"]
+material = ExtResource( 11 )
+margin_left = 118.482
+margin_top = 5.50003
+margin_right = 154.482
+margin_bottom = 41.5
+focus_mode = 1
+enabled_focus_mode = 1
+texture_normal = ExtResource( 3 )
+texture_hover = ExtResource( 21 )
+__meta__ = {
+"_edit_group_": true
+}
