@@ -49,50 +49,50 @@ animate/percent_visible = 1.0
 animate/all_at_once = false
 
 [node name="Button" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 32.9225
-margin_right = 52.9225
+margin_left = 32.9224
+margin_right = 52.9224
 margin_bottom = 20.0
 text = "1"
 
 [node name="Button1" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 7.18268
+margin_left = 7.18265
 margin_top = 12.3956
-margin_right = 27.1827
+margin_right = 27.1826
 margin_bottom = 32.3956
 text = "2"
 
 [node name="Button2" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 0.82547
+margin_left = 0.825436
 margin_top = 40.2484
-margin_right = 20.8255
+margin_right = 20.8254
 margin_bottom = 60.2484
 text = "3"
 
 [node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 18.638
+margin_left = 18.6379
 margin_top = 62.5845
-margin_right = 38.638
+margin_right = 38.6379
 margin_bottom = 82.5845
 text = "4"
 
 [node name="Button4" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 47.207
-margin_top = 62.5846
-margin_right = 67.207
-margin_bottom = 82.5846
+margin_left = 47.2069
+margin_top = 62.5845
+margin_right = 67.2069
+margin_bottom = 82.5845
 text = "5"
 
 [node name="Button5" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 65.0195
+margin_left = 65.0194
 margin_top = 40.2484
-margin_right = 85.0195
+margin_right = 85.0194
 margin_bottom = 60.2484
 text = "6"
 
 [node name="Button6" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 58.6623
+margin_left = 58.6622
 margin_top = 12.3956
-margin_right = 78.6623
+margin_right = 78.6622
 margin_bottom = 32.3956
 text = "7"
 
