@@ -1,20 +1,27 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://addons/RadialContainer/CircularContainer.gd" type="Script" id=1]
 [ext_resource path="res://addons/RadialContainer/icon.png" type="Texture" id=2]
+[ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f31f.svg" type="Texture" id=3]
 
 [node name="Root" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+margin_top = 0.499451
+margin_bottom = 0.499451
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="CircularContainer" type="Container" parent="."]
-margin_left = 469.0
-margin_top = 257.0
-margin_right = 554.845
-margin_bottom = 342.845
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -136.407
+margin_top = -136.407
+margin_right = 136.407
+margin_bottom = 136.407
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false,
@@ -24,68 +31,76 @@ arrange/force_squares = true
 arrange/force_expand = true
 arrange/start_angle = 0.0
 arrange/start_empty = false
-arrange/allow_node2d = false
+arrange/allow_node2d = true
 animate/percent_visible = 1.0
 animate/all_at_once = false
 
 [node name="Button" type="Button" parent="CircularContainer"]
-margin_left = 63.6033
-margin_right = 83.6033
-margin_bottom = 20.0
+margin_left = 107.407
+margin_right = 165.407
+margin_bottom = 58.0
 text = "0"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button1" type="Button" parent="CircularContainer"]
-margin_left = 18.629
-margin_top = 18.629
-margin_right = 38.629
-margin_bottom = 38.629
+margin_left = 31.4587
+margin_top = 31.4587
+margin_right = 89.4587
+margin_bottom = 89.4587
 text = "1"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button2" type="Button" parent="CircularContainer"]
-margin_top = 63.6034
-margin_right = 20.0
-margin_bottom = 83.6034
+margin_top = 107.407
+margin_right = 58.0
+margin_bottom = 165.407
 text = "2"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button3" type="Button" parent="CircularContainer"]
-margin_left = 18.629
-margin_top = 108.578
-margin_right = 38.629
-margin_bottom = 128.578
+margin_left = 31.4588
+margin_top = 183.355
+margin_right = 89.4588
+margin_bottom = 241.355
 text = "3"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button4" type="Button" parent="CircularContainer"]
-margin_left = 63.6033
-margin_top = 127.207
-margin_right = 83.6033
-margin_bottom = 147.207
+margin_left = 107.407
+margin_top = 214.814
+margin_right = 165.407
+margin_bottom = 272.814
 text = "4"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button5" type="Button" parent="CircularContainer"]
-margin_left = 108.578
-margin_top = 108.578
-margin_right = 128.578
-margin_bottom = 128.578
+margin_left = 183.355
+margin_top = 183.355
+margin_right = 241.355
+margin_bottom = 241.355
 text = "5"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button6" type="Button" parent="CircularContainer"]
-margin_left = 127.207
-margin_top = 63.6033
-margin_right = 147.207
-margin_bottom = 83.6033
+margin_left = 214.814
+margin_top = 107.407
+margin_right = 272.814
+margin_bottom = 165.407
 text = "6"
+icon = ExtResource( 3 )
 flat = true
 
 [node name="Button7" type="Button" parent="CircularContainer"]
-margin_left = 108.578
-margin_top = 18.629
-margin_right = 128.578
-margin_bottom = 38.629
+margin_left = 183.355
+margin_top = 31.4587
+margin_right = 241.355
+margin_bottom = 89.4587
 text = "7"
+icon = ExtResource( 3 )
 flat = true
