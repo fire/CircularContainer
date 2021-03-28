@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://addons/RadialContainer/CircularContainer.gd" type="Script" id=1]
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f5fa.svg" type="Texture" id=2]
@@ -12,12 +12,22 @@
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f469.svg" type="Texture" id=10]
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji/1f4d6.svg" type="Texture" id=11]
 [ext_resource path="res://addons/RadialContainer/examples/donut.svg" type="Texture" id=12]
+[ext_resource path="res://addons/mountainside_trail/21181342752_02a4f60565_k.jpg" type="Texture" id=13]
 
 [node name="Root" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 1.29224
-margin_bottom = 1.29224
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="21181342752_02a4f60565_k" type="TextureRect" parent="."]
+margin_left = -0.109
+margin_right = 1023.89
+margin_bottom = 683.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+texture = ExtResource( 13 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -35,6 +45,8 @@ rect_scale = Vector2( 0.29, 0.29 )
 texture = ExtResource( 12 )
 expand = true
 __meta__ = {
+"_edit_group_": true,
+"_edit_lock_": true,
 "_edit_use_anchors_": false
 }
 
