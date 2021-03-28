@@ -37,7 +37,7 @@ __meta__ = {
 }
 arrange/force_squares = true
 arrange/force_expand = true
-arrange/start_angle = 25.0
+arrange/start_angle = 20.0
 arrange/start_empty = true
 arrange/allow_node2d = true
 animate/percent_visible = 1.0
@@ -45,73 +45,73 @@ animate/all_at_once = false
 
 [node name="SchoolSatchet" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 31.1684
-margin_top = 42.131
-margin_right = 90.1684
-margin_bottom = 101.131
+margin_left = 38.7067
+margin_top = 34.3061
+margin_right = 97.7067
+margin_bottom = 93.3061
 icon = ExtResource( 8 )
 flat = true
 
 [node name="Caution" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 0.616928
-margin_top = 136.928
-margin_right = 59.6169
-margin_bottom = 195.928
+margin_left = 0.00942993
+margin_top = 126.08
+margin_right = 59.0094
+margin_bottom = 185.08
 icon = ExtResource( 5 )
 flat = true
 
 [node name="WorldMap" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 49.1302
-margin_top = 223.895
-margin_right = 106.13
-margin_bottom = 280.895
+margin_left = 40.8494
+margin_top = 216.861
+margin_right = 97.8494
+margin_bottom = 273.861
 icon = ExtResource( 2 )
 flat = true
 
 [node name="Compass" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 142.931
-margin_top = 248.303
-margin_right = 200.931
-margin_bottom = 306.303
+margin_left = 132.12
+margin_top = 249.393
+margin_right = 190.12
+margin_bottom = 307.393
 text = "6"
 icon = ExtResource( 9 )
 flat = true
 
 [node name="Woman" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 226.629
-margin_top = 195.899
-margin_right = 285.629
-margin_bottom = 254.899
+margin_left = 220.022
+margin_top = 204.525
+margin_right = 279.022
+margin_bottom = 263.525
 icon = ExtResource( 10 )
 flat = true
 
 [node name="OpenBook" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 246.288
-margin_top = 98.2604
-margin_right = 305.288
-margin_bottom = 157.26
+margin_left = 248.116
+margin_top = 108.971
+margin_right = 307.116
+margin_bottom = 167.971
 icon = ExtResource( 11 )
 flat = true
 
 [node name="Flag" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 200.475
-margin_top = 27.3252
-margin_right = 248.475
-margin_bottom = 75.3252
+margin_left = 209.16
+margin_top = 33.8543
+margin_right = 257.16
+margin_bottom = 81.8543
 icon = ExtResource( 7 )
 flat = true
 
 [node name="Star" type="Button" parent="CircularContainer"]
 material = ExtResource( 6 )
-margin_left = 118.785
-margin_top = 6.01027
-margin_right = 166.785
-margin_bottom = 54.0103
+margin_left = 129.638
+margin_top = 5.50067
+margin_right = 177.638
+margin_bottom = 53.5007
 icon = ExtResource( 4 )
 flat = true
