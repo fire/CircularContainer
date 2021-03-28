@@ -86,13 +86,14 @@ animate/all_at_once = false
 
 [node name="SchoolSatchet" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 34.2955
-margin_top = 31.8624
-margin_right = 81.2955
-margin_bottom = 78.8624
+margin_left = 31.1752
+margin_top = 33.5172
+margin_right = 83.1752
+margin_bottom = 85.5172
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 5 )
 texture_pressed = ExtResource( 14 )
@@ -105,13 +106,14 @@ __meta__ = {
 
 [node name="Caution" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 0.0974579
-margin_top = 117.597
-margin_right = 47.0975
-margin_bottom = 164.597
+margin_left = 3.03516
+margin_top = 123.764
+margin_right = 50.0352
+margin_bottom = 170.764
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 15 )
 texture_pressed = ExtResource( 8 )
@@ -124,13 +126,14 @@ __meta__ = {
 
 [node name="WorldMap" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 41.1585
-margin_top = 200.253
-margin_right = 86.1585
-margin_bottom = 245.253
+margin_left = 47.0402
+margin_top = 201.762
+margin_right = 92.0402
+margin_bottom = 246.762
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 16 )
 texture_pressed = ExtResource( 7 )
@@ -143,13 +146,14 @@ __meta__ = {
 
 [node name="Compass" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 124.908
-margin_top = 231.127
-margin_right = 160.908
-margin_bottom = 267.127
+margin_left = 129.216
+margin_top = 228.284
+margin_right = 165.216
+margin_bottom = 264.284
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 17 )
 texture_pressed = ExtResource( 9 )
@@ -162,13 +166,14 @@ __meta__ = {
 
 [node name="Woman" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 196.106
-margin_top = 189.235
-margin_right = 243.106
-margin_bottom = 236.235
+margin_left = 196.585
+margin_top = 184.933
+margin_right = 243.585
+margin_bottom = 231.933
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 18 )
 texture_pressed = ExtResource( 6 )
@@ -181,13 +186,14 @@ __meta__ = {
 
 [node name="OpenBook" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 225.252
-margin_top = 101.654
-margin_right = 272.252
-margin_bottom = 148.654
+margin_left = 222.46
+margin_top = 99.2047
+margin_right = 269.46
+margin_bottom = 146.205
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 19 )
 texture_pressed = ExtResource( 4 )
@@ -200,13 +206,14 @@ __meta__ = {
 
 [node name="Flag" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 191.155
-margin_top = 32.0608
-margin_right = 227.155
-margin_bottom = 68.0608
+margin_left = 188.202
+margin_top = 32.8593
+margin_right = 224.202
+margin_bottom = 68.8593
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 20 )
 texture_pressed = ExtResource( 10 )
@@ -219,13 +226,14 @@ __meta__ = {
 
 [node name="Star" type="TextureButton" parent="CircularContainer"]
 material = ExtResource( 11 )
-margin_left = 118.482
-margin_top = 5.50003
-margin_right = 154.482
-margin_bottom = 41.5
+margin_left = 117.899
+margin_top = 8.00116
+margin_right = 153.899
+margin_bottom = 44.0012
 focus_mode = 1
 toggle_mode = true
 enabled_focus_mode = 1
+keep_pressed_outside = true
 group = ExtResource( 22 )
 texture_normal = ExtResource( 21 )
 texture_pressed = ExtResource( 3 )
