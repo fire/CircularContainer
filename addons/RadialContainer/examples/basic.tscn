@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=2]
+[gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://addons/RadialContainer/CircularContainer.gd" type="Script" id=1]
 [ext_resource path="res://addons/RadialContainer/icon.png" type="Texture" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f4d6.svg" type="Texture" id=19]
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f3f3.svg" type="Texture" id=20]
 [ext_resource path="res://addons/RadialContainer/examples/Twemoji_disabled/1f31f.svg" type="Texture" id=21]
+[ext_resource path="res://addons/RadialContainer/examples/button_group.tres" type="ButtonGroup" id=22]
 
 [node name="Root" type="Control"]
 anchor_right = 1.0
@@ -89,10 +90,11 @@ margin_left = 34.2955
 margin_top = 31.8624
 margin_right = 81.2955
 margin_bottom = 78.8624
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 5 )
+texture_pressed = ExtResource( 14 )
 texture_hover = ExtResource( 14 )
+texture_focused = ExtResource( 14 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -103,10 +105,11 @@ margin_left = 0.0974579
 margin_top = 117.597
 margin_right = 47.0975
 margin_bottom = 164.597
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 8 )
+texture_pressed = ExtResource( 15 )
 texture_hover = ExtResource( 15 )
+texture_focused = ExtResource( 15 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -117,10 +120,11 @@ margin_left = 41.1585
 margin_top = 200.253
 margin_right = 86.1585
 margin_bottom = 245.253
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 7 )
+texture_pressed = ExtResource( 16 )
 texture_hover = ExtResource( 16 )
+texture_focused = ExtResource( 16 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -131,10 +135,11 @@ margin_left = 124.908
 margin_top = 231.127
 margin_right = 160.908
 margin_bottom = 267.127
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 9 )
+texture_pressed = ExtResource( 17 )
 texture_hover = ExtResource( 17 )
+texture_focused = ExtResource( 17 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -145,10 +150,11 @@ margin_left = 196.106
 margin_top = 189.235
 margin_right = 243.106
 margin_bottom = 236.235
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 18 )
 texture_hover = ExtResource( 18 )
+texture_focused = ExtResource( 18 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -159,10 +165,11 @@ margin_left = 225.252
 margin_top = 101.654
 margin_right = 272.252
 margin_bottom = 148.654
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 4 )
+texture_pressed = ExtResource( 19 )
 texture_hover = ExtResource( 19 )
+texture_focused = ExtResource( 19 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -173,10 +180,11 @@ margin_left = 191.155
 margin_top = 32.0608
 margin_right = 227.155
 margin_bottom = 68.0608
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 10 )
+texture_pressed = ExtResource( 20 )
 texture_hover = ExtResource( 20 )
+texture_focused = ExtResource( 20 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -187,10 +195,11 @@ margin_left = 118.482
 margin_top = 5.50003
 margin_right = 154.482
 margin_bottom = 41.5
-focus_mode = 1
-enabled_focus_mode = 1
+group = ExtResource( 22 )
 texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 21 )
 texture_hover = ExtResource( 21 )
+texture_focused = ExtResource( 21 )
 __meta__ = {
 "_edit_group_": true
 }
