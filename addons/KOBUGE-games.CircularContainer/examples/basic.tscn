@@ -1,33 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://addons/KOBUGE-games.CircularContainer/CircularContainer.gd" type="Script" id=1]
 [ext_resource path="res://addons/KOBUGE-games.CircularContainer/icon.png" type="Texture" id=2]
-
-[sub_resource type="Animation" id=1]
-tracks/0/type = "value"
-tracks/0/path = NodePath("VBoxContainer/HBoxContainer/CircularContainer:animate/percent_visible")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ 0.0, 1.0 ]
-}
-tracks/1/type = "value"
-tracks/1/path = NodePath("VBoxContainer/HBoxContainer/CircularContainer:arrange/start_angle")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/keys = {
-"times": PoolRealArray( 0, 1 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 0,
-"values": [ 360.0, 0.0 ]
-}
 
 [node name="Root" type="Control"]
 anchor_right = 1.0
@@ -71,63 +45,55 @@ arrange/force_expand = true
 arrange/start_angle = 360.0
 arrange/start_empty = false
 arrange/allow_node2d = false
-animate/percent_visible = 0.0
+animate/percent_visible = 1.0
 animate/all_at_once = false
 
 [node name="Button" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 32.9224
+margin_right = 52.9224
+margin_bottom = 20.0
 text = "1"
 
 [node name="Button1" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 7.18265
+margin_top = 12.3956
+margin_right = 27.1826
+margin_bottom = 32.3956
 text = "2"
 
 [node name="Button2" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 0.825436
+margin_top = 40.2484
+margin_right = 20.8254
+margin_bottom = 60.2484
 text = "3"
 
 [node name="Button3" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 18.6379
+margin_top = 62.5845
+margin_right = 38.6379
+margin_bottom = 82.5845
 text = "4"
 
 [node name="Button4" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 47.2069
+margin_top = 62.5845
+margin_right = 67.2069
+margin_bottom = 82.5845
 text = "5"
 
 [node name="Button5" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 65.0194
+margin_top = 40.2484
+margin_right = 85.0194
+margin_bottom = 60.2484
 text = "6"
 
 [node name="Button6" type="Button" parent="VBoxContainer/HBoxContainer/CircularContainer"]
-margin_left = 42.9224
-margin_top = 42.9224
-margin_right = 62.9224
-margin_bottom = 62.9224
-rect_scale = Vector2( 0.01, 0.01 )
+margin_left = 58.6622
+margin_top = 12.3956
+margin_right = 78.6622
+margin_bottom = 32.3956
 text = "7"
 
 [node name="Right" type="Panel" parent="VBoxContainer/HBoxContainer"]
@@ -141,7 +107,3 @@ margin_top = 346.0
 margin_right = 1024.0
 margin_bottom = 600.0
 size_flags_vertical = 3
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-autoplay = "Example"
-anims/Example = SubResource( 1 )
