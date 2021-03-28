@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/icon.png-8eac87c001456d0071218f3ab7ffeb84.stex"
+path="res://.import/addon-icon.png-71ac3161e9af667bf9f4dadf1c02b894.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/KOBUGE-games.CircularContainer/icon.png"
-dest_files=[ "res://.import/icon.png-8eac87c001456d0071218f3ab7ffeb84.stex" ]
+source_file="res://addons/RadialContainer/addon-icon.png"
+dest_files=[ "res://.import/addon-icon.png-71ac3161e9af667bf9f4dadf1c02b894.stex" ]
 
 [params]
 
