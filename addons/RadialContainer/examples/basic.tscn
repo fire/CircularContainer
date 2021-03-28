@@ -11,16 +11,13 @@ __meta__ = {
 }
 
 [node name="CircularContainer" type="Container" parent="."]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -42.9224
-margin_top = -42.9224
-margin_right = 42.9224
-margin_bottom = 42.9224
+margin_left = 469.0
+margin_top = 257.0
+margin_right = 554.845
+margin_bottom = 342.845
 script = ExtResource( 1 )
 __meta__ = {
+"_edit_use_anchors_": false,
 "_editor_icon": ExtResource( 2 )
 }
 arrange/force_squares = true
@@ -32,56 +29,63 @@ animate/percent_visible = 1.0
 animate/all_at_once = false
 
 [node name="Button" type="Button" parent="CircularContainer"]
-margin_left = 32.9224
-margin_right = 52.9224
+margin_left = 63.6033
+margin_right = 83.6033
 margin_bottom = 20.0
-text = "1"
+text = "0"
 flat = true
 
 [node name="Button1" type="Button" parent="CircularContainer"]
-margin_left = 7.18264
-margin_top = 12.3956
-margin_right = 27.1826
-margin_bottom = 32.3956
-text = "2"
+margin_left = 18.629
+margin_top = 18.629
+margin_right = 38.629
+margin_bottom = 38.629
+text = "1"
 flat = true
 
 [node name="Button2" type="Button" parent="CircularContainer"]
-margin_left = 0.825436
-margin_top = 40.2484
-margin_right = 20.8254
-margin_bottom = 60.2484
-text = "3"
+margin_top = 63.6034
+margin_right = 20.0
+margin_bottom = 83.6034
+text = "2"
 flat = true
 
 [node name="Button3" type="Button" parent="CircularContainer"]
-margin_left = 18.6379
-margin_top = 62.5845
-margin_right = 38.6379
-margin_bottom = 82.5845
-text = "4"
+margin_left = 18.629
+margin_top = 108.578
+margin_right = 38.629
+margin_bottom = 128.578
+text = "3"
 flat = true
 
 [node name="Button4" type="Button" parent="CircularContainer"]
-margin_left = 47.207
-margin_top = 62.5845
-margin_right = 67.207
-margin_bottom = 82.5845
-text = "5"
+margin_left = 63.6033
+margin_top = 127.207
+margin_right = 83.6033
+margin_bottom = 147.207
+text = "4"
 flat = true
 
 [node name="Button5" type="Button" parent="CircularContainer"]
-margin_left = 65.0194
-margin_top = 40.2484
-margin_right = 85.0194
-margin_bottom = 60.2484
-text = "6"
+margin_left = 108.578
+margin_top = 108.578
+margin_right = 128.578
+margin_bottom = 128.578
+text = "5"
 flat = true
 
 [node name="Button6" type="Button" parent="CircularContainer"]
-margin_left = 58.6622
-margin_top = 12.3956
-margin_right = 78.6622
-margin_bottom = 32.3956
+margin_left = 127.207
+margin_top = 63.6033
+margin_right = 147.207
+margin_bottom = 83.6033
+text = "6"
+flat = true
+
+[node name="Button7" type="Button" parent="CircularContainer"]
+margin_left = 108.578
+margin_top = 18.629
+margin_right = 128.578
+margin_bottom = 38.629
 text = "7"
 flat = true
